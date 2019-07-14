@@ -37,7 +37,7 @@ function openInfo(weather) {
         content: `<h3>${weather.name}</h3>
         <img class="wicon" src="${iconurl}" alt="Weather icon">
         <p>${weather.main.temp}&#8451</p>
-        <p>${weather.main.temp_min}&#8451 - ${weather.main.temp_max}&#8451</p>
+        <p>${weather.main.temp_min}&#8451  -  ${weather.main.temp_max}&#8451</p>
         <p>${weather.weather[0].description}</p>`
     });
     info.open(map, currentMarker)
