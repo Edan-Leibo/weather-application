@@ -1,7 +1,8 @@
 html,
 body {
     height: 100%;
-
+    margin: 0;
+    padding: 0;
     text-align: center;
 }
 
@@ -14,4 +15,8 @@ p,
 img{
  margin: 0.5rem auto;
  padding-left: 1.5rem;   
+}
+
+img{
+    min-height: 4rem;
 }
