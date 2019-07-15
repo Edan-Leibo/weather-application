@@ -12,7 +12,7 @@ body {
 
 h3,
 p, 
-img{
+.wicon{
     margin: 0.5rem auto;
     padding-left: 1.5rem;   
 }
